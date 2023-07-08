@@ -1,0 +1,500 @@
+/*--the Muzzle HP--*/
+
+*{
+    text-decoration: none;
+}
+
+body {
+    background-image: url(/theMuzzle/images/111111215847.png);
+    margin: 0 0 8px 0;
+    padding-top: 150px;
+    font-family: "Source Code Pro", "Noto Serif JP", monospace, sans-serif;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-left: 10px;
+    z-index: 1000;
+}
+
+.muzzle {
+    height: 80px;
+    width: 200px;
+    line-height: 90px;
+    margin-right: 5%;
+    margin-top: 5px;
+}
+
+.muzzle:hover {
+    line-height: 80px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #820000;
+    transition: 0.4s;
+}
+
+#menuWrap .gnav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+}
+
+#menuWrap ul li {
+    color: #fff;
+    line-height: 90px;
+    margin: 0 1%;
+}
+
+#menuWrap ul li a {
+    color: #fff;
+}
+
+#menuWrap ul li:hover {
+    line-height: 80px;
+    background-color: rgba(200, 0, 0, 0.6);
+    border: 0;
+    border-bottom: 10px;
+    border-style: solid;
+    border-color: #000;
+    transition: .4s;
+}
+
+#wrap {
+    background-color: rgba(0,0,0,.6);
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#wrap .content-main-style {
+    margin-top: 0;
+    height: 100%;
+    padding: 50px 100px;
+    box-sizing: border-box;
+}
+
+#wrap .main-logo {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.main-logo .muzzle-logo {
+    width: 50%;
+    height: 50%;
+}
+
+.content-main-album {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-main-album .album-cd {
+    overflow: hidden;
+}
+
+.content-main-album .album-article-image {
+    width: 400px;
+    height: 400px;
+    transition: all .4s ease-in-out;
+}
+
+.content-main-album .album-article-image:hover {
+    transform: scale(1.15);
+    transition: all .4s ease-in-out;
+}
+
+.album-info p {
+    color: #fff;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+#show-buy {
+    width: 315px;
+    height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    background-color: rgba(255,255,255,0.36);
+    border: solid 2px #820000;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+#show-buy:hover {
+    background-color: rgba(128,14,14,0.66);
+    color: #fff;
+    cursor: pointer;
+}
+
+.muzzle-mv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.muzzle-video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-bottom: 1em;
+}
+
+.muzzle-video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(100, 0, 0, 0.7);
+}
+
+.muzzle-tour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.muzzle-tour .tour-title-text {
+    color: #fff;
+    font-size: 32px;
+    font-size: 2rem;
+}
+
+.tour-dates {
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.tour-dates .article-tour-image {
+    width: 400px;
+    height: 400px;
+    transition: all .4s ease-in-out;
+}
+
+.article-tour-image:hover {
+    transform: scale(1.15);
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+#btn-tickets {
+    width: 315px;
+    height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    background-color: rgba(255,255,255,0.36);
+    border: solid 2px #820000;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+#btn-tickets:hover {
+    background-color: rgba(128,14,14,0.66);
+    color: #fff;
+    cursor: pointer;
+}
+
+.muzzle-sns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.muzzle-sns .sns-title {
+    color: #fff;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.sns-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sns-links .theMuzzle-social {
+    transition: all .4s ease-in-out;
+}
+
+.theMuzzle-social:hover {
+    opacity: 0.4;
+    transition: all .4s ease-in-out;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .copyright {
+    color: #7b7b7b;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    transition: all .4s ease-in-out;
+}
+
+footer .copyright:hover {
+    color: rgba(128,14,14,0.66);
+    transition: all .4s ease-in-out;
+}
+
+/*--the Muzzle Discography--*/
+#index {
+    padding-top: 60px;
+}
+
+#index {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding: 20px 60px 60px 60px;
+    background-color: rgba(0,0,0,0.6);
+    width: 80%;
+}
+
+#index h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#index h1 em {
+    font-style: italic;
+}
+
+.hr-line {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border: 1px inset #fff;
+}
+
+.article-category {
+    color: #fff;
+    background-image: -webkit-linear-gradient(left, transparent, rgba(159,0,0,0.45) 20%, rgba(159,0,0,0.45) 80%, transparent);
+}
+
+.article-category h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.article-category h2 em {
+    font-style: italic;
+}
+
+#separate {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.disc-jacket {
+    overflow: hidden;
+}
+
+.disc-article-image {
+    width: 400px;
+    height: 400px;
+    transition: all .4s ease-in-out;
+}
+
+.disc-article-image:hover {
+    transform: scale(1.15);
+    transition: all .4s ease-in-out;
+}
+
+#tracks-box {
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#tracks-box h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#tracks-box p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#cd-info {
+    color: #fff;
+}
+
+#cd-info strong {
+    font-weight: bold;
+}
+
+#cd-info p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.sales-info-label {
+    color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.sales-info-label:hover {
+    color: #c23434;
+}
+
+.sales-info-body {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.sales-info {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+/*--the Muzzle radio--*/
+#self-box.radio-box {
+    margin-top: 30px;
+    color: #fff;
+}
+
+#self-box {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#self-box h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#self-box h1 em {
+    font-style: italic;
+}
+
+/*--the Muzzle profile--*/
+#self-box.admins {
+    color: #fff;
+    text-align: center;
+}
+
+#self-box h1 {
+    text-align: center;
+}
+
+.admins-box {
+    margin: 0 auto;
+}
+
+.muzzle-profile {
+    margin: 10px;
+    box-sizing: border-box;
+    border: 4px solid #fff;
+    text-align: left;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.muzzle-profile p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.muzzle-profile a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+}
+
+.muzzle-profile a:hover {
+    color: #c23434;
+}
+
+.admin-box {
+    float: left;
+    width: 48%;
+    margin: 1%;
+    box-sizing: border-box;
+    border: 4px solid #fff;
+    text-align: justify;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.admin-box p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.muzzle-sns-artist {
+    color: #fff;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+}
+
+.muzzle-sns-artist:hover {
+    color: #c23434;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
